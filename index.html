@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CRM & Digital Skills Programs | Career-Focused Certification</title>
+
+<meta name="description" content="Launch your career in CRM & Data Science & Business Analytics. Industry-aligned programs for US professionals.">
+<meta name="keywords" content="CRM & Digital course USA, Data Science certification, Machine Learning training, Career transition to tech">
+<meta name="robots" content="index, follow">
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container nav">
+
+    <div class="logo">Hachion</div>
+
+    <nav id="navMenu">
+      <ul>
+        <li><a href="#courses" class="nav-link">Programs</a></li>
+        <li><a href="#roadmap" class="nav-link">Roadmap</a></li>
+        <li><a href="#salary" class="nav-link">Careers</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <a href="#" class="btn-primary small-btn">Book Free Call</a>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      ☰
+    </div>
+
+  </div>
+</header>
+
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1>Launch Your Career in <span>CRM & Data Science & Business Analytics</span></h1>
+      <p>Designed for U.S. working professionals and career switchers.</p>
+      <div class="cta-group">
+        <a href="#courses" class="btn-primary">View Programs</a>
+        <a href="#" class="btn-outline">Download Brochure</a>
+      </div>
+    </div>
+
+    <div class="lead-box">
+      <h3>🎁 Free CRM & Data Science & Business Analytics Roadmap</h3>
+      <input type="email" placeholder="Enter your email">
+      <button>Get Free Guide</button>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section class="trust-section">
+  <div class="container">
+    
+    <p class="trust-title">
+      Our learners are working at leading global companies
+    </p>
+
+    <div class="logo-wrapper">
+      
+      <div class="logo-item">
+        <img src="Google.png" alt="Google Logo">
+      </div>
+
+      <div class="logo-item">
+        <img src="amazon.png" alt="Amazon Logo">
+      </div>
+
+      <div class="logo-item">
+        <img src="Microsft.png" alt="Microsoft Logo">
+      </div>
+
+      <div class="logo-item">
+        <img src="Meta.png" alt="Meta Logo">
+      </div>
+
+      <div class="logo-item">
+        <img src="Apple.png" alt="Apple Logo">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- COURSES -->
+<!-- COURSES SECTION -->
+
+<section id="courses" class="section">
+  <div class="container">
+
+    <h2 class="section-title">Our Programs</h2>
+
+
+    <div class="tabs">
+      <button class="active" onclick="showCategory('ai', this)">
+        CRM (10)
+      </button>
+      <button onclick="showCategory('ds', this)">
+        Data Science & Business Analytics (13)
+      </button>
+    </div>
+
+    <div class="search-box">
+      <input type="text" placeholder="Search course..."
+             onkeyup="searchCourse(this.value)">
+    </div>
+
+    <div id="ai" class="category active">
+      <div class="course-grid" id="aiCourses"></div>
+    </div>
+
+    <div id="ds" class="category">
+      <div class="course-grid" id="dsCourses"></div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- COMPARISON -->
+<section class="section comparison-section">
+  <div class="container">
+    <h2 class="section-title">Program Comparison</h2>
+    <p class="section-subtitle">
+      Choose the right path for your CRM & Data Science & Business Analytics career
+    </p>
+
+    <div class="comparison-wrapper">
+
+      <!-- AI PROGRAM -->
+      <div class="compare-card recommended">
+        <div class="badge-top">Most Popular</div>
+        <h3>CRM</h3>
+        <ul>
+          <li><span>⏳ Duration</span> <strong>6 Months</strong></li>
+          <li><span>🚀 Live Projects</span> <strong>8+</strong></li>
+          <li><span>🧠 AdvancedSalesforce & </span> <strong>Included</strong></li>
+          <li><span>🎯 Career Support</span> <strong>Yes</strong></li>
+          <li><span>💼 Mock Interviews</span> <strong>5+</strong></li>
+        </ul>
+        <a href="#" class="btn-primary">Enroll Now</a>
+      </div>
+
+      <!-- DATA SCIENCE PROGRAM -->
+      <div class="compare-card">
+        <h3>Digital Skills</h3>
+        <ul>
+          <li><span>⏳ Duration</span> <strong>5 Months</strong></li>
+          <li><span>🚀 Live Projects</span> <strong>6+</strong></li>
+          <li><span>📊 Data Analytics & BI</span> <strong>Included</strong></li>
+          <li><span>🎯 Career Support</span> <strong>Yes</strong></li>
+          <li><span>💼 Mock Interviews</span> <strong>3+</strong></li>
+        </ul>
+        <a href="#" class="btn-outline">Enroll Now</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ROADMAP -->
+<section id="roadmap" class="section roadmap-section">
+  <div class="container">
+    <h2 class="section-title">Learning Roadmap</h2>
+    <p class="section-subtitle">
+      Step-by-step structured journey to become job-ready in CRM & Data Science & Business Analytics
+    </p>
+
+    <div class="roadmap-wrapper">
+      <div class="progress-line"></div>
+
+      <div class="roadmap-step">
+        <div class="circle">1</div>
+        <h3>Foundation</h3>
+        <p>Python, SQL, Statistics fundamentals</p>
+      </div>
+
+      <div class="roadmap-step">
+        <div class="circle">2</div>
+        <h3>Core Skills</h3>
+        <p>Machine Learning, Data Handling, Visualization</p>
+      </div>
+
+      <div class="roadmap-step">
+        <div class="circle">3</div>
+        <h3>Hands-on Projects</h3>
+        <p>Real-world case studies & portfolio building</p>
+      </div>
+
+      <div class="roadmap-step">
+        <div class="circle">4</div>
+        <h3>Interview Prep</h3>
+        <p>Mock interviews & resume optimization</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- SALARY -->
+<section id="salary" class="salary-section">
+  <div class="container">
+    <h2 class="section-title">Career Outlook in USA</h2>
+    <p class="section-subtitle">
+      High-demand careers with strong salary growth across the U.S. market
+    </p>
+
+    <div class="salary-grid">
+
+      <div class="salary-card">
+        <div class="salary-icon">🤖</div>
+        <h3>Artificial Intelligence Engineer</h3>
+        <div class="salary-amount" data-target="120000">$0</div>
+        <span class="per-year">Average Annual Salary</span>
+        <div class="growth">📈 +22% Job Growth</div>
+      </div>
+
+      <div class="salary-card highlight">
+        <div class="salary-icon">📊</div>
+        <h3>Data Scientist</h3>
+        <div class="salary-amount" data-target="135000">$0</div>
+        <span class="per-year">Average Annual Salary</span>
+        <div class="growth">📈 +18% Job Growth</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- TESTIMONIAL -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Student Success</h2>
+    <div class="testimonial">
+      <p>"I transitioned from marketing to Data Analyst in 5 months!"</p>
+      <h4>- Michael R., Texas</h4>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq-section">
+  <div class="container">
+
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <p class="section-subtitle">
+      Everything you need to know before starting your AI & Data Science journey
+    </p>
+
+    <div class="faq-wrapper">
+
+      <!-- LEFT SIDE FAQ -->
+      <div class="faq-left">
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Is this beginner friendly?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Yes. We start from Python fundamentals and gradually move to advanced concepts.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you provide career support?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Yes. Resume building, mock interviews and job assistance are included.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Are classes live or recorded?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Live instructor-led classes with lifetime recording access.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            What projects will I build?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Real-world AI & Data Science projects aligned with U.S. job market needs.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you offer flexible payment options?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            Yes. EMI and installment options are available.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE FORM -->
+      <div class="faq-right">
+        <div class="enquiry-card">
+          <h3>🎓 Speak With Career Advisor</h3>
+          <p>Get personalized guidance & program details.</p>
+
+          <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <select required>
+              <option value="">Select Program</option>
+              <option>Artificial Intelligence</option>
+              <option>Data Science</option>
+            </select>
+            <button type="submit">Request Callback</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- STICKY BOTTOM CTA -->
+<div class="bottom-cta">
+  <p>Next Cohort Starts Soon</p>
+  <a href="#">Apply Now</a>
+</div>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/17324852499" class="whatsapp">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
