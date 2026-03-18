@@ -323,25 +323,57 @@
       </div>
 
       <!-- RIGHT SIDE FORM -->
-      <div class="faq-right">
-        <div class="enquiry-card">
-          <h3>🎓 Speak With Career Advisor</h3>
-          <p>Get personalized guidance & program details.</p>
+    <div class="faq-right">
+  <div class="enquiry-card">
+    <h3>🎓 Speak With Career Advisor</h3>
+    <p>Get personalized guidance & program details.</p>
 
-          <form>
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email Address" required>
-            <input type="tel" placeholder="Phone Number" required>
-            <select required>
-              <option value="">Select Program</option>
-              <option>Artificial Intelligence</option>
-              <option>Data Science</option>
-            </select>
-            <button type="submit">Request Callback</button>
-          </form>
-        </div>
-      </div>
+    <form id="leadForm">
+      <input type="text" name="entry.806942519" placeholder="Full Name" required>
+      <input type="email" name="entry.675818684" placeholder="Email Address" required>
+      <input type="tel" name="entry.120425259" placeholder="Phone Number" required>
+      <input type="tel" name="entry.156507485" placeholder="WhatsApp Number" required>
 
+      <select name="entry.1945111725" required>
+        <option value="">Select Program</option>
+        <option value="aiml">Artificial Intelligence</option>
+        <option value="datascience">Data Science</option>
+      </select>
+
+      <input type="text" name="entry.587354409" placeholder="Country (e.g. USA)" required>
+      <input type="text" name="entry.1410753576" placeholder="City (e.g. Los Angeles)" required>
+      <input type="text" name="entry.671720867" placeholder="How did you hear about us?" required>
+
+      <button type="submit">Request Callback</button>
+    </form>
+
+    <p id="successMsg" style="display:none; color:green; font-weight:bold;">
+      ✅ Thank you! Our team will contact you soon.
+    </p>
+  </div>
+</div>
+
+<script>
+document.getElementById("leadForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const form = this;
+  const data = new FormData(form);
+
+  fetch("https://docs.google.com/forms/d/e/1FAIpQLSfXqQjfesFkfndCbQ1iKYHv3PZhbFTRRSEzicysns3Ctr8NIQ/formResponse", {
+    method: "POST",
+    mode: "no-cors",
+    body: data
+  })
+  .then(() => {
+    document.getElementById("successMsg").style.display = "block";
+    form.reset();
+  })
+  .catch(() => {
+    alert("❌ Something went wrong. Please try again.");
+  });
+});
+</script>
     </div>
   </div>
 </section>
