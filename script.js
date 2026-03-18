@@ -36,8 +36,9 @@ const aiCoursesData = [
   {title:"Salesforce Admin", level:"Intermediate", image:"Salesforce Admin.png"},
   {title:"Salesforce Development", level:"Advanced", image:"Salesforce Development.png"},
   {title:"Salesforce Admin+Development", level:"Advanced", duration:"10 Weeks", price:"INR20000", image:"Salesforce Combo.png"},
+     {title:"Salesforce Advanced", level:"Advanced", duration:"12 Weeks", price:"INR1500", image:"Salesforce Advanced Admin.png"},
   {title:"ServiceNow Admin", level:"Intermediate", duration:"6 Weeks", price:"INR1700", image:"ServiceNow Admin (1).png"},
-  {title:"Salesforce Advanced", level:"Advanced", duration:"12 Weeks", price:"INR1500", image:"Salesforce Advanced Admin.png"},
+ 
   {title:"Salesforce Business", level:"Beginner", duration:"8 Weeks", price:"INR1500", image:"Salesforce BA.png"},
   {title:"Salesforce AI", level:"Advanced", duration:"10 Weeks", price:"INR1500", image:"Salesforce (1).png"},
   {title:"Workflow Automation", level:"Intermediate", duration:"9 Weeks", price:"INR22500", image:"website design.png"},
