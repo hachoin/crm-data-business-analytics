@@ -32,7 +32,7 @@ answer.style.display=answer.style.display==="block"?"none":"block";
 });
 
 const aiCoursesData = [
-    {title:"Salesforce CPQ Course", level:"Beginner",image:"Salesforce CPQ.png"},
+    {title:"Salesforce CPQ Course", level:"Beginner",image:"salesforce-cpq.png"},
   {title:"Salesforce Admin", level:"Intermediate", image:"Salesforce Admin.png"},
   {title:"Salesforce Development", level:"Advanced", image:"Salesforce Development.png"},
   {title:"Salesforce Admin+Development", level:"Advanced", duration:"10 Weeks", price:"INR20000", image:"Salesforce Combo.png"},
