@@ -1,4 +1,4 @@
-const aiCourses=document.getElementById("aiCourses");
+icconst aiCourses=document.getElementById("aiCourses");
 const dsCourses=document.getElementById("dsCourses");
 
 for(let i=1;i<=10;i++){
@@ -36,7 +36,7 @@ const aiCoursesData = [
   {title:"Salesforce Admin", level:"Intermediate", image:"salesforce-admin.png"},
   {title:"Salesforce Development", level:"Advanced", image:"salesforce-development.png"},
   {title:"Salesforce Admin+Development", level:"Advanced", image:"salesforce-admin-development.png"},
-  {title:"ServiceNow Admin", level:"Intermediate", image:"ServiceNow Admin (1).png"},
+  {title:"ServiceNow Admin", level:"Intermediate", image:"service-now-admin.png"},
   {title:"Salesforce Advanced", level:"Advanced", image:"Salesforce Advanced Admin.png"},
   {title:"Salesforce Business", level:"Beginner", image:"Salesforce BA.png"},
   {title:"Salesforce AI", level:"Advanced", image:"Salesforce (1).png"},
