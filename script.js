@@ -36,7 +36,7 @@ const aiCoursesData = [
   {title:"Salesforce Admin", level:"Intermediate", duration:"6 Weeks", price:"$350", image:"salesforce-admin-course.png"},
   {title:"Salesforce Development", level:"Advanced", duration:"6 Weeks", price:"$350", image:"salesforce-development-course.png"},
   {title:"Salesforce Admin+Development", level:"Advanced", duration:"6 Weeks", price:"$350", image:"salesforce-combo-course.png"},
-     {title:"Salesforce Advanced", level:"Advanced", duration:"6 Weeks", price:"$350", image:"Salesforce Advanced Admin.png"},
+     {title:"Salesforce Advanced", level:"Advanced", duration:"6 Weeks", price:"$350", image:"salesforce-advanced-admin-course.png"},
   {title:"ServiceNow Admin", level:"Intermediate", duration:"6 Weeks", price:"$350", image:"servicenow-admin-course.png"},
  
   {title:"Salesforce Business", level:"Beginner",  duration:"6 Weeks", price:"$350", image:"salesforce-ba-course.png"},
@@ -55,7 +55,7 @@ const dsCoursesData = [
   {title:"Data Analytics Capstone Project", level:"Intermediate", duration:"6 Weeks", price:"$360", image:"data-analytics-capstone-project-course.png"},
   {title:"Data Analytics with python", level:"Intermediate", duration:"6 Weeks", price:"$350", image:"Data-analytics-with-python-course.png"},
   {title:"Pyspark certifcation", level:"Advanced", duration:"10 Weeks", price:"$320", image:"pyspark-certification-course.png"},
-  {title:"SQL with Python", level:"Advanced", duration:"12 Weeks", price:"$300", image:"SQL with Python.png"},
+  {title:"SQL with Python", level:"Advanced", duration:"12 Weeks", price:"$300", image:"sql-with-python-course.png"},
   {title:"Teradata", level:"Advanced", duration:"12 Weeks", price:"$360", image:"teradata-course.png"},
   {title:"PL SQL", level:"Intermediate", duration:"8 Weeks", price:"$3400", image:"pl-sql-course.png"},
   {title:"Data Warehousing", level:"Advanced", duration:"8 Weeks", price:"$300", image:"data-warehousing-course.png"}
