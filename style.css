@@ -990,3 +990,12 @@ body{
 .btn:hover{
   background:#1e40af;
 }
+
+
+<style>
+.logo img {
+  height: 50px;   /* adjust size */
+  width: auto;
+  display: block;
+}
+</style>
